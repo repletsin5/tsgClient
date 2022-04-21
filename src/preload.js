@@ -107,6 +107,8 @@ else if(room == "main"){
     camera.bounds.y = c.height / 8 * 3
 }
 textbox.width = document.getElementById("canvas").width;
+textbox.y = document.getElementById("canvas").height - 50;
+
 }
 
 globalThis.window.onload = () => {
